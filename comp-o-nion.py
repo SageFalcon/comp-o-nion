@@ -205,8 +205,7 @@ def main(page: ft.Page):
                         ft.Text(f"Оперативная память:{info['memory_usage']}"),
                         ft.Text(f"Заполненность дисков:{info['disk_usage']}"),
                         ft.Text(f"Скорость интернета:{info['network_speed']}"),
-                      ]), padding=15))
-
+                      ]), padding=15)),
 
     ])
     #_______________________________________________________--
